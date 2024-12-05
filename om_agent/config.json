@@ -1,0 +1,18 @@
+{
+   "name": "my_agent",
+   "description": [
+       "My example agent that does demo tasks"
+   ],
+   "tools": [
+      "example/arxiv"
+   ],
+   "meta": {
+      "author": "Om Raheja",
+      "version": "0.0.1",
+      "license": "CC0"
+   },
+   "build": {
+      "entry": "entry.py",
+      "module": "MyAgent"
+   }
+}
